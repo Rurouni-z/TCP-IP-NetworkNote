@@ -98,7 +98,7 @@ Socket type two: 2
 
 #### 9.1.3 `SO_SNDBUF` & `SO_RCVBUF`
 
-创建套接字的同时会生成 I/O 缓冲。关于 I/O 缓冲，可以去看第五章。
+创建套接字的同时会生成 I/O 缓冲。关于 I/O 缓冲，可以去看[第五章](https://github.com/Rurouni-z/TCP-IP-NetworkNote/tree/master/ch05)。
 
 SO_RCVBUF 是输入缓冲大小相关可选项，SO_SNDBUF 是输出缓冲大小相关可选项。用这 2 个可选项既可以读取当前 I/O 大小，也可以进行更改。通过下列示例读取创建套接字时默认的 I/O 缓冲大小。
 
