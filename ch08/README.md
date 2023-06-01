@@ -49,7 +49,7 @@ struct hostent
 };
 ```
 
-从上述结构体可以看出，不止返回IP信息，同事还带着其他信息一起返回。域名转换成IP时只需要关注 h_addr_list 。下面简要说明上述结构体的成员：
+从上述结构体可以看出，不止返回IP信息，同时还带着其他信息一起返回。域名转换成IP时只需要关注 h_addr_list 。下面简要说明上述结构体的成员：
 
 - h_name：该变量中存有官方域名（Official domain name）。官方域名代表某一主页，但实际上，一些著名公司的域名并没有用官方域名注册。
 - h_aliases：可以通过多个域名访问同一主页。同一IP可以绑定多个域名，因此，除官方域名外还可以指定其他域名。这些信息可以通过 h_aliases 获得。
@@ -81,8 +81,8 @@ gcc gethostbyname.c -o hostname
 可以看出，百度有一个域名解析是 CNAME 解析的，指向了`shifen.com`，关于百度具体的解析过程。
 
 > 这一部分牵扯到了很多关于DNS解析的过程，还有 Linux 下关于域名解析的一些命令，我找了一部分资料，可以点下面的链接查看比较详细的：
->
-> - [关于百度DNS的解析过程](http://zhan.renren.com/starshen?gid=3602888498023142484&checked=true)
+> - 如果dig +trace www.baidu.com 不起作用，使用dig @[8.8.8.8](https://stackoverflow.com/a/55166244) +trace www.baidu.com 用
+> - [关于百度DNS的解析过程](https://www.cnblogs.com/idmask/p/4477633.html)
 > - [DNS解析的过程是什么，求详细的？](https://www.zhihu.com/question/23042131/answer/66571369)
 > - [Linux DNS 查询剖析](https://zhuanlan.zhihu.com/p/45535596)
 > - [Linux DNS查询命令](http://www.live-in.org/archives/1938.html)
