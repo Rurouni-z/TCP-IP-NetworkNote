@@ -76,7 +76,9 @@ howto: 传递断开方式信息
 
 - [file_client.c](https://github.com/riba2534/TCP-IP-NetworkNote/blob/master/ch07/file_client.c)
 - [file_server.c](https://github.com/riba2534/TCP-IP-NetworkNote/blob/master/ch07/file_server.c)
-
+- 修改过代码
+- [file_client.cpp](https://github.com/Rurouni-z/TCP-IP-NetworkNote/blob/master/ch07/file_client.cpp)
+- [file_server.cpp](https://github.com/Rurouni-z/TCP-IP-NetworkNote/blob/master/ch07/file_server.cpp)
 编译运行：
 
 ```shell
