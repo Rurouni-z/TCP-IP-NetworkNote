@@ -209,6 +209,8 @@ TCP 套接字默认使用 `Nagle` 算法交换数据，因此最大限度的进�
 禁用 `Nagle` 算法应该使用：
 
 ```c
+#include <netinet/tcp.h>
+#include <netinet/in.h>
 int opt_val = 1;
 setsockopt(sock, IPPROTO_TCP, TCP_NODELAY, (void *)&opt_val, sizeof(opt_val));
 ```
