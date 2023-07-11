@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <sys/io.h>
 #define BUF_SZIE 3
 
 int main(int argc, char *argv[])
