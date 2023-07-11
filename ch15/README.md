@@ -31,11 +31,11 @@
 
 下面是利用系统函数的示例：
 
-- [syscpy.c](https://github.com/riba2534/TCP-IP-NetworkNote/blob/master/ch15/syscpy.c)
+- [syscpy.c](https://github.com/Rurouni-z/TCP-IP-NetworkNote/blob/master/ch15/syscpy.c)
 
 下面是使用标准 I/O 函数复制文件
 
-- [stdcpy.c](https://github.com/riba2534/TCP-IP-NetworkNote/blob/master/ch15/stdcpy.c)
+- [stdcpy.c](https://github.com/Rurouni-z/TCP-IP-NetworkNote/blob/master/ch15/stdcpy.c)
 
 对于以上两个代码进行测试，明显基于标准 I/O 函数的代码跑的更快
 
