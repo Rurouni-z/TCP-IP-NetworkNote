@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <unistd.h>
 #include <fcntl.h>
-#include <sys/io.h>
+
 #define BUF_SIZE 3
 
 int main(int argc, char *argv[])
